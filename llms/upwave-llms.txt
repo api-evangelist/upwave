@@ -1,0 +1,42 @@
+<!-- generated: '2026-07-21' | method: generated | source: apis.yml + verified pages on www.upwave.com (no /llms.txt published) -->
+# Upwave
+
+> Upwave (formerly Survata) is the Brand Outcomes Measurement Platform — it brings science to top-of-funnel advertising by measuring Brand Lift, validating Brand Reach, and surfacing optimization insights for brand campaigns across CTV, digital, linear TV, audio, and social.
+
+Upwave does not publish a public developer portal or API documentation. The platform is delivered as a SaaS application at app.upwave.com, with ad-server and DSP integrations managed through the Upwave team and partner ecosystem. Upwave is a portfolio company of Y Combinator, Uncork Capital, and Initialized Capital (it began as Survata, a YC S12 survey-research company).
+
+## Platform
+
+- [Platform overview](https://www.upwave.com/platform/): The Brand Outcomes Measurement Platform.
+- [Brand Lift](https://www.upwave.com/brand-lift/): Measure the incremental impact of advertising on brand metrics.
+- [Brand Reach](https://www.upwave.com/brand-reach/): Validate who brand campaigns actually reached.
+- [Brand Optimization](https://www.upwave.com/brand-optimization/): Surface what is working across campaigns.
+- [Bayes](https://www.upwave.com/bayes/): Upwave's AI layer for brand measurement.
+- [Partner Ecosystem](https://www.upwave.com/partner-ecosystem/): Ad platforms and DSPs Upwave integrates with.
+- [Digital Network](https://www.upwave.com/digital-network/): Upwave's survey publisher network.
+- [Sign in](https://app.upwave.com/login): The Upwave application (single-page app; no public API surface).
+
+## Resources
+
+- [Help Center](https://www.upwave.com/knowledgebase/): Upwave Help Center.
+- [Case studies](https://www.upwave.com/case-studies/)
+- [Guides](https://www.upwave.com/guides/)
+- [White papers](https://www.upwave.com/whitepapers/)
+- [Blog](https://www.upwave.com/blog/) — RSS at https://www.upwave.com/feed/
+- [Newsroom](https://www.upwave.com/newsroom/)
+- [Upwave Explains](https://www.upwave.com/upwave-explains/): short explainers (what is brand lift, AI reporting, tactic mapping).
+
+## Company
+
+- [About](https://www.upwave.com/company/)
+- [Careers](https://www.upwave.com/careers/)
+- [Ways to work with us](https://www.upwave.com/ways-to-work-with-us/)
+- [Request a demo](https://www.upwave.com/platform-demo/)
+- [GitHub organization](https://github.com/Survata) (public repos are internal tooling; the docs repo is a template experiment, not published API docs)
+
+## Policies
+
+- [Terms of service](https://www.upwave.com/terms/)
+- [Privacy policy](https://www.upwave.com/privacy-policy/)
+- [California privacy policy](https://www.upwave.com/california-privacy-policy/)
+- [Publisher policy](https://www.upwave.com/publisher-policy/)

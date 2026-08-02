@@ -1,8 +1,28 @@
 aid: upwave
 name: Upwave
-description: 'Upwave is a company surfaced as a portfolio company of initialized-capital, uncork-capital,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. Sector: enterprise-saas.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Upwave (formerly Survata) is the Brand Outcomes Measurement Platform — it
+  brings science to top-of-funnel advertising by measuring Brand Lift,
+  validating Brand Reach, and surfacing optimization insights for brand
+  campaigns across CTV, digital, linear TV, audio, and social channels.
+  Advertisers, agencies, and media platforms use Upwave dashboards and its
+  Bayes AI layer to quantify how campaigns move awareness, favorability,
+  consideration, and intent. Upwave is delivered as a SaaS application with a
+  managed partner ecosystem of ad servers and DSPs, and does not publish a
+  public developer portal or API documentation. It is a portfolio company of
+  Y Combinator, Uncork Capital, and Initialized Capital.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.upwave.com/wp-content/uploads/2021/12/Frame-5.jpg
 url: https://raw.githubusercontent.com/api-evangelist/upwave/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise Saas
+- Advertising
+- Brand Analytics
+- Brand Lift
+- Measurement
+- Market Research
+- CTV
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +52,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://upwave.com/
+  url: https://www.upwave.com/
+- type: Blog
+  url: https://www.upwave.com/blog/
+- type: BlogRSS
+  url: https://www.upwave.com/feed/
+- type: Support
+  url: https://www.upwave.com/knowledgebase/
+- type: Login
+  url: https://app.upwave.com/login
+- type: TermsOfService
+  url: https://www.upwave.com/terms/
+- type: PrivacyPolicy
+  url: https://www.upwave.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/Survata
+- type: LLMsTxt
+  url: llms/upwave-llms.txt
+- type: DomainSecurity
+  url: security/upwave-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

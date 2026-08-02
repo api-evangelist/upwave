@@ -1,0 +1,28 @@
+{
+  "repo": "upwave",
+  "feeds": [
+    {
+      "source": "https://www.upwave.com/feed/",
+      "feed_url": "https://www.upwave.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.upwave.com/",
+      "feed_url": "https://www.upwave.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.upwave.com/blog/",
+      "feed_url": "https://www.upwave.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}
