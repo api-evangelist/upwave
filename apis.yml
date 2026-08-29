@@ -11,6 +11,17 @@ description: >-
   managed partner ecosystem of ad servers and DSPs, and does not publish a
   public developer portal or API documentation. It is a portfolio company of
   Y Combinator, Uncork Capital, and Initialized Capital.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
