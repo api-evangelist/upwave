@@ -26,3 +26,33 @@
     detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
+- slug: upwave-y-combinator
+  label: Y Combinator
+  partner: y-combinator
+  partner_name: Y Combinator
+  category: accelerator portfolio participation
+  type: register
+  channel: standard-directory
+  evidence: https://www.ycombinator.com/companies/upwave
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Y Combinator company directory (ycombinator.com/companies/<slug>)
+    standard: null
+    spec_file: null
+    role: accelerator-portfolio-company
+    registered_name: Upwave
+    register_id: https://www.ycombinator.com/companies/upwave
+    register_country: US
+    register_website: http://www.upwave.com
+    matched_domain: upwave.com
+    matched_by: domain
+    signal_note: 'participation only: the accelerator''s own portfolio register lists the company (cohort / investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-accelerator-portfolios.py
+    detected: '2026-10-21'
+    batch: Summer 2012
+    year: '2012'
+    status: Active
+  status: not-a-workflow
+  arazzo: null
