@@ -56,3 +56,42 @@
     status: Active
   status: not-a-workflow
   arazzo: null
+- slug: upwave-amazon-ads-partner-directory
+  label: Amazon Ads Partner Directory
+  partner: amazon
+  partner_name: Amazon Ads Partner Directory
+  category: Amazon Ads partner (services)
+  type: register
+  channel: standard-directory
+  evidence: https://advertising.amazon.com/partners/directory
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Amazon Ads Partner Directory (advertising.amazon.com/partners/directory, GetPartners)
+    registered_name: Upwave
+    register_id: amzn1.ads1.ma1.5a5hzilxq1m4bj9xtkzv2ps4h
+    matched_domain: upwave.com
+    matched_by: domain
+    services:
+    - ADVERTISING_EFFECTIVENESS
+    - AUDIENCE_MEASUREMENT
+    - AUDIENCE_VERIFICATION
+    - AUDIO_MEASUREMENT
+    - BRAND_MEASUREMENT
+    - CLEAN_ROOM_ANALYTICS
+    - REPORTING_AND_ANALYTICS
+    - VIDEO_MEASUREMENT
+    ads_products:
+    - AUDIO_ADS
+    - SPONSORED_BRANDS
+    - SPONSORED_DISPLAY
+    - SPONSORED_PRODUCTS
+    - VIDEO_ADS
+    service_models:
+    - TOOL_PROVIDER
+    signal_note: listing = participation; accreditation recorded as partner_tier; ads_certifications are Amazon
+      Ads LEARNING certifications held by staff, not product conformance, never certified_products
+    detected_by: sweep-amazon-sp-api-appstore.py
+    detected: '2026-10-21'
+  status: not-a-workflow
+  arazzo: null

@@ -7,6 +7,9 @@ checked:
 - https://www.antler.co/portfolio
 - https://www.techstars.com/portfolio
 - https://www.ycombinator.com/companies
+- https://advertising.amazon.com/partners/directory
+- https://sellercentral.amazon.com/gspn
+- https://sellercentral.amazon.com/selling-partner-appstore
 marketplace_apps: []
 edges:
 - partner_name: Google Ad Tech Providers
@@ -61,6 +64,46 @@ edges:
     status: Active
   detected_by: sweep-accelerator-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Amazon Ads Partner Directory
+  partner: amazon
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://advertising.amazon.com/partners/directory
+  category: Amazon Ads partner (services)
+  contract_reference:
+    register: Amazon Ads Partner Directory (advertising.amazon.com/partners/directory, GetPartners)
+    registered_name: Upwave
+    register_id: amzn1.ads1.ma1.5a5hzilxq1m4bj9xtkzv2ps4h
+    matched_domain: upwave.com
+    matched_by: domain
+    services:
+    - ADVERTISING_EFFECTIVENESS
+    - AUDIENCE_MEASUREMENT
+    - AUDIENCE_VERIFICATION
+    - AUDIO_MEASUREMENT
+    - BRAND_MEASUREMENT
+    - CLEAN_ROOM_ANALYTICS
+    - REPORTING_AND_ANALYTICS
+    - VIDEO_MEASUREMENT
+    ads_products:
+    - AUDIO_ADS
+    - SPONSORED_BRANDS
+    - SPONSORED_DISPLAY
+    - SPONSORED_PRODUCTS
+    - VIDEO_ADS
+    service_models:
+    - TOOL_PROVIDER
+    signal_note: listing = participation; accreditation recorded as partner_tier; ads_certifications are Amazon
+      Ads LEARNING certifications held by staff, not product conformance, never certified_products
+    detected_by: sweep-amazon-sp-api-appstore.py
+    detected: '2026-10-21'
+  detected_by: sweep-amazon-sp-api-appstore.py
+  detected: '2026-10-21'
+  partner_tier:
+  - VERIFIED_PARTNER
 source:
 - https://www.ycombinator.com/companies
 - https://500.co/companies
